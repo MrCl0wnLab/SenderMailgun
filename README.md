@@ -42,7 +42,7 @@ SenderMailgun::send_mail('marketing.imaginarionerd.com.br',$params);
 print_r(SenderMailgun::$result_send);
 ```
 ## Video
-[![asciicast](https://asciinema.org/a/vLvgQf8YB82IrjImcQ1J7Qrrk.svg)](https://asciinema.org/a/vLvgQf8YB82IrjImcQ1J7Qrrk)
+[![asciicast](https://asciinema.org/a/nfHXNyMEv8HwVyWndQN21ST3S.svg)](https://asciinema.org/a/nfHXNyMEv8HwVyWndQN21ST3S)
 
 ## Reference:
 > https://documentation.mailgun.com/en/latest/api-sending.html#sending
