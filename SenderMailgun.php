@@ -3,13 +3,13 @@
 class SenderMailgun{
 
     # Set url api Mailgun.
-    private 	static $api_url 	      = "https://api.mailgun.net/v3/";
+    private 	static $api_url = "https://api.mailgun.net/v3/";
     # Set api key Mailgun.
-    public 	  static $api_key 	      = NULL;
+    public 	  static $api_key = NULL;
     # Result request api.
-    public 	  static $result_send 	  = NULL;
+    public 	  static $result_send = NULL;
     # Option curl verbose.
-    public 	  static $verbose 	      = FALSE;
+    public 	  static $verbose = FALSE;
 
     public function __get($property) {
       if (property_exists($this, $property)) {
