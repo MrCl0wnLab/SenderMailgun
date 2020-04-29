@@ -38,7 +38,7 @@ $params = [
 ];
 
 # Action sender.
-SenderMailgun::send_mail('marketing.imaginarionerd.com.br',$params);
+SenderMailgun::send_mail('marketing.your-mail.com.brr',$params);
 print_r(SenderMailgun::$result_send);
 ```
 ## Video
